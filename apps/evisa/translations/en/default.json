@@ -1,0 +1,140 @@
+{
+  "buttons": {
+    "start-home": "Start Now",
+    "continue-only": "Continue"
+  },
+  "fields": {
+    "sent-email": {
+      "legend": "Has the home office sent you an email",
+      "validate": [
+        "required"
+      ],
+      "options": {
+        "yes": {
+          "label": "Yes"
+        },
+        "no": {
+          "label": "No"
+        }
+      }
+    },
+    "tech-problem": {
+      "legend": "Do you have a technical problem?",
+      "validate": [
+        "required"
+      ],
+      "options": {
+        "yes": {
+          "label": "Yes"
+        },
+        "no": {
+          "label": "No"
+        }
+      }
+    },
+    "full-name": {
+      "label": "Full name"
+    },
+    "email": {
+      "label": "Email address",
+      "hint": "We will reply to this email address"
+    },
+    "contact-number": {
+      "label": "Contact number (optional)",
+      "hint": "We may call you to ask for more details"
+    },
+    "ref-number": {
+      "label": "Reference number (optional)",
+      "hint": "For exmaple, 2021-1111-1111"
+    },
+    "question": {
+      "label": "Enter your question below. Provide as much detail as possible"
+    },
+    "contacted": {
+      "legend": "The Home Office conducts research about experiences using products and services. Would you like to be contacted further about your experience using this service",
+      "hint": "IF you agree to take part in the future research blah blah blah...",
+      "validate": [
+        "required"
+      ],
+      "options": {
+        "yes": {
+          "label": "Yes"
+        },
+        "no": {
+          "label": "No"
+        }
+      }
+    }
+  },
+  "journey": {
+    "header": "eVisa contact form",
+    "phase": "beta"
+  },
+  "pages": {
+    "start1": {
+      "header": "Get access to your eVisa",
+      "paragraph-1": "This application must be completed by anyone who applies to work for Border Force.",
+      "paragraph-2": "You have 5 working days from the day you were first sent a link to the service to complete your application.",
+      "paragraph-3": "We will use the answers you provide in this application for security checks that you must pass in order to be offered employment with Border Force.",
+      "paragraph-4": "To be offered a position, you must also pass United Kingdom Security Vetting (UKSV) and standard pre-employment and right to work checks.",
+      "paragraph-5": "If you fail one of these checks, your job offer with Border Force will be withdrawn.",
+      "paragraph-6": "Border Force is entitled to expect staff to have high standards and integrity. If relevant information in this application has not been declared, this may bring into question someone's honesty and trustworthiness. This can lead to clearance being refused. You therefore must be thorough, open and sincere.",
+      "paragraph-7": "If you declare something which is irrelevant, it will be discounted."
+    },
+    "start2": {
+      "header": "Get access to your eVisa2",
+      "paragraph-1": "This application must be completed by anyone who applies to work for Border Force.",
+      "paragraph-2": "You have 5 working days from the day you were first sent a link to the service to complete your application.",
+      "paragraph-3": "We will use the answers you provide in this application for security checks that you must pass in order to be offered employment with Border Force.",
+      "paragraph-4": "To be offered a position, you must also pass United Kingdom Security Vetting (UKSV) and standard pre-employment and right to work checks.",
+      "paragraph-5": "If you fail one of these checks, your job offer with Border Force will be withdrawn.",
+      "paragraph-6": "Border Force is entitled to expect staff to have high standards and integrity. If relevant information in this application has not been declared, this may bring into question someone's honesty and trustworthiness. This can lead to clearance being refused. You therefore must be thorough, open and sincere.",
+      "paragraph-7": "If you declare something which is irrelevant, it will be discounted."
+    },
+    "start": {
+      "header": "Using this form ======",
+      "paragraph-1": "YYY",
+      "paragraph-2": "You have 5 working days from the day you were first sent a link to the service to complete your application.",
+      "paragraph-3": "We will use the answers you provide in this application for security checks that you must pass in order to be offered employment with Border Force.",
+      "paragraph-4": "To be offered a position, you must also pass United Kingdom Security Vetting (UKSV) and standard pre-employment and right to work checks.",
+      "paragraph-5": "If you fail one of these checks, your job offer with Border Force will be withdrawn.",
+      "paragraph-6": "Border Force is entitled to expect staff to have high standards and integrity. If relevant information in this application has not been declared, this may bring into question someone's honesty and trustworthiness. This can lead to clearance being refused. You therefore must be thorough, open and sincere.",
+      "paragraph-7": "If you declare something which is irrelevant, it will be discounted."
+    },
+    "no-invite": {
+      "header": "Using this form",
+      "paragraph-1": "XXX",
+      "paragraph-2": "You have 5 working days from the day you were first sent a link to the service to complete your application.",
+      "paragraph-3": "We will use the answers you provide in this application for security checks that you must pass in order to be offered employment with Border Force.",
+      "paragraph-4": "To be offered a position, you must also pass United Kingdom Security Vetting (UKSV) and standard pre-employment and right to work checks.",
+      "paragraph-5": "If you fail one of these checks, your job offer with Border Force will be withdrawn.",
+      "paragraph-6": "Border Force is entitled to expect staff to have high standards and integrity. If relevant information in this application has not been declared, this may bring into question someone's honesty and trustworthiness. This can lead to clearance being refused. You therefore must be thorough, open and sincere.",
+      "paragraph-7": "If you declare something which is irrelevant, it will be discounted."
+    },
+    "contact-details": {
+      "header": "Your details",
+      "intro": "Enter your contact details below. We will use ..."
+    },
+    "confirmation": {
+      "header": "Question sent",
+      "content-copy-sent": "We have sent you a confirmation email",
+      "content-whats-next": "What happens next",
+      "content-respond-1": "aaaa",
+      "content-respond-2": "bbbb",
+      "content-respond-3": "cccc",
+      "content-feedback-link-text": "What do you think of this service?"
+    }
+  },
+  "validation": {
+    "tech-problem": {
+      "required": "Do you have a technical problem?"
+    },
+    "contact-number": {
+      "ukPhoneNumber": "Enter a valid UK telephone number"
+    },
+    "ref-number": {
+      "minLength": "Please enter a valid reference number",
+      "maxLength": "Please enter a valid reference number"
+    }
+  }
+}
